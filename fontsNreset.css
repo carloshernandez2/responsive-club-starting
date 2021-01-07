@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Shadows Into Light';
+    src: url('./Fonts/Raleway-Shadows_Into_Light/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
+@font-face {
+    font-family: 'Raleway';
+    src: url('./Fonts/Raleway-Shadows_Into_Light/Raleway/static/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
+@font-face {
+    font-family: 'Raleway';
+    src: url('./Fonts/Raleway-Shadows_Into_Light/Raleway/static/Raleway-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+ }
+@font-face {
+    font-family: 'Raleway';
+    src: url('./Fonts/Raleway-Shadows_Into_Light/Raleway/static/Raleway-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+ }
+@font-face {
+    font-family: 'Raleway';
+    src: url('./Fonts/Raleway-Shadows_Into_Light/Raleway/static/Raleway-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: rgb(253, 144, 2);
+}
+
+a, li, p, label{
+    color: rgb(253, 144, 2);
+    text-decoration: none;
+    font-family: 'Raleway', serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Shadows Into Light';
+    font-weight: normal;
+    font-style: normal;
+}
+

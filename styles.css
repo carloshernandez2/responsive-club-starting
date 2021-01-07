@@ -1,0 +1,166 @@
+@import url('fontsNreset.css');
+
+.grid {
+    display: grid;
+    min-height: 100vh;
+    max-height: 4896px;
+    background-color: green;
+    background-image: url("./Images/tennisBackground.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-template: 1fr 2fr 1fr repeat(4, 1fr auto) 2fr / repeat(3, 30vmin);
+    gap: 3vmin;
+    grid-template-areas: "nav nav nav"
+                         "header header header"
+                         "search search search"
+                         "sub-header1 sub-header1 sub-header1"
+                         "tennis1 tennis2 tennis3"
+                         "sub-header2 sub-header2 sub-header2"
+                         "tennis4 tennis5 tennis6"
+                         "sub-header3 sub-header3 sub-header3"
+                         "tennis7 tennis7 tennis7"
+                         "sub-header4 sub-header4 sub-header4"
+                         "tennis8 tennis9 tennis10"
+                         "footer footer footer";
+}
+
+h2 {
+ font-size: 2.5rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+figure {
+    width: fit-content;
+}
+
+ul {
+    width: 90vmin;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 0 50% 50% 50%;
+}
+
+#busqueda{
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    grid-area: nav;
+    justify-content: space-between;
+}
+
+.header {
+    grid-area: header;
+}
+
+.search {
+    grid-area: search;
+    justify-content: space-evenly;
+}
+
+.sub-header1{
+    grid-area: sub-header1;
+    flex-flow: column;
+}
+
+.sub-header2{
+    grid-area: sub-header2;
+    flex-flow: column;
+}
+
+.sub-header3{
+    grid-area: sub-header3;
+    flex-flow: column;
+}
+
+.sub-header4{
+    grid-area: sub-header4;
+    flex-flow: column;
+}
+
+.tennis1{
+    grid-area: tennis1;
+}
+
+.tennis2{
+    grid-area: tennis2;
+}
+
+.tennis3{
+    grid-area: tennis3;
+}
+
+.tennis4{
+    grid-area: tennis4;
+}
+
+.tennis5{
+    grid-area: tennis5;
+}
+
+.tennis6{
+    grid-area: tennis6;
+}
+
+.tennis7{
+    grid-area: tennis7;
+}
+
+.tennis8{
+    grid-area: tennis8;
+}
+
+.tennis9{
+    grid-area: tennis9;
+}
+
+.tennis10{
+    grid-area: tennis10;
+}
+
+.footer{
+    grid-area: footer;
+    justify-content: start;
+}
+
+ @media only screen and (orientation: landscape){
+    .grid {
+        grid-template: 1fr 2fr 1fr repeat(4, 1fr auto) 2fr / repeat(3, 30vmax);
+        gap: 3vmax;
+        grid-template-areas: "nav nav nav"
+                            "header header header"
+                            "search search search"
+                            "sub-header1 sub-header1 sub-header1"
+                            "tennis1 tennis2 tennis3"
+                            "sub-header2 sub-header2 sub-header2"
+                            "tennis4 tennis5 tennis6"
+                            "sub-header3 sub-header3 sub-header3"
+                            "tennis7 tennis7 tennis7"
+                            "sub-header4 sub-header4 sub-header4"
+                            "tennis8 tennis9 tennis10"
+                            "footer footer footer";
+    }
+
+    nav figure {
+        margin-left: 70px;
+    }
+
+    .tennis7 {
+        margin: 0 auto;
+    }
+} 
