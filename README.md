@@ -1,13 +1,12 @@
 # Project Name
 
-> POSTRES ABUELA BEATRY.
+> Club de Tenis Palmeto.
 
 ## Table of contents
 
 - [Project Name](#project-name)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
-  - [Screenshots](#screenshots)
   - [Technologies](#technologies)
   - [Setup](#setup)
   - [Code Examples](#code-examples)
@@ -18,13 +17,7 @@
 
 ## General info
 
-The purpose of the proyect is to use flexbox to design and build the layout for a company’s homepage.
-
-## Screenshots
-
-Background image screenshot:
-
-![Example screenshot](./Images/postre-de-limón-background.jpg)
+The purpose of the proyect is to use flexbox and grid to design and build the layout for a homepage.
 
 ## Technologies
 
@@ -34,7 +27,7 @@ Background image screenshot:
 
 ## Setup
 
-[Home page in GitHub Pages](https://carloshernandez2.github.io/flexbox-business-site-starting/)
+[Home page in GitHub Pages](https://carloshernandez2.github.io/responsive-club-starting/)
 
 ## Code Examples
 
@@ -75,7 +68,7 @@ Project is: Finished.
 
 ## Inspiration
 
-I was motivated by the idea of a fictional dessert shop for my grandma.
+I was motivated by the idea of a fictional club in my neighborhood.
 
 ## Contact
 
